@@ -6,7 +6,7 @@ import json
 
 app = Flask(__name__)
 
-with open("{}/database/showtimes.json".format(root_dir()), "r") as f:
+with open("../database/showtimes.json".format(root_dir()), "r") as f:
     showtimes = json.load(f)
 
 
