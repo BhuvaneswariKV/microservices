@@ -7,7 +7,7 @@ import requests
 
 app = Flask(__name__)
 
-with open("{}/database/users.json".format(root_dir()), "r") as f:
+with open("../database/users.json".format(root_dir()), "r") as f:
     users = json.load(f)
 
 
